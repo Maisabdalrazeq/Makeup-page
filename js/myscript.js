@@ -1,14 +1,25 @@
 
+var AB = "nice to see you here again";
+alert('hello girls welcom to makeup world')
+alert('how are you today?');
+alert('nice to see you here again');
+var age = prompt ('how old are you?')
 
-var theowner = "mais";
-var gender = prompt("girl or boy!")
-alert('hello girls welcome to makeup world');
-alert(theowner);
+function greeting(age){
+   var greetin;//
 
-if(gender=girl){
-    alert("hello girls welcome to makeup world")
-} else {
-    alert("sorry try again")
-}
+    if (age > 18) {
+        greeting = 'welcom girls'; 
+        prompt( greeting )
+       } else { ( age < 17) 
+            greeting = 'you are beautiful without makeup';
+            prompt( greeting )
+        }
 
+         return greeting; }
+
+
+
+document.write('<h2>' +greeting(age)+'</h2>');
+     
 console.log(heading);
