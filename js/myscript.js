@@ -1,5 +1,4 @@
 
-var AB = "nice to see you here again";
 alert('hello girls welcom to makeup world')
 alert('how are you today?');
 alert('nice to see you here again');
@@ -10,13 +9,14 @@ function greeting(age){
 
     if (age > 18) {
         greeting = 'welcom girls'; 
-        prompt( greeting )
+        alert( greeting )
        } else { ( age < 17) 
             greeting = 'you are beautiful without makeup';
-            prompt( greeting )
+            alert( greeting )
         }
 
-         return greeting; }
+         return greeting;
+}
 
 
 
